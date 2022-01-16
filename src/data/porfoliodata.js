@@ -11,14 +11,15 @@ const portfoliodata =[
         id: 1,
         category: 'CSS',
         image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
+        link1: 'https://github.com/Lakshmi5524/Mern-map-backend',
+        link2: 'https://github.com/Lakshmi5524/Mern-map-frontend',
+        link3: 'https://wizardly-northcutt-8bf366.netlify.app/',
+        title: 'MERN MAP',
+        text: 'Created AUTH,and MAP'
     },
     {
         id: 2,
-        category: 'Python',
+        category: 'MERN Project',
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',

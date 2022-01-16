@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import {MainLayout,InnerLayout} from '../Styles/Layout'
+import {InnerLayout} from '../Styles/Layout'
 import Title from '../componets/Title'
 import ProgressBar from '../componets/ProgressBar'
 
@@ -25,7 +25,7 @@ function Skills() {
                     <ProgressBar
                       title={'JavaScript'}
                        width={'40%'}
-                       text={'60%'}
+                       text={'70%'}
                      />
 
 
@@ -58,11 +58,14 @@ function Skills() {
 
 const Skillstyled=styled.section`
 .skills{
-    display:grid;
-    grid-template-columns:repeat(2,1fr);
-    grid-row-gap:2rem;
-    grid-column-gap:3rem;
-}
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2rem;
+        grid-column-gap: 3rem;
+        @media screen and (max-width: 700px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 
 `
 

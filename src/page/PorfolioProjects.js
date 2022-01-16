@@ -31,7 +31,7 @@ function PorfolioProjects() {
         <Title title={"Projects"} span={"Projects"} button={button}/>
 
         <InnerLayout>
-			<Button filter={filter} button={button}/>
+			      <Button filter={filter} button={button}/>
             <Menu menuItem={menuItem}/>
         </InnerLayout>
     </MainLayout>

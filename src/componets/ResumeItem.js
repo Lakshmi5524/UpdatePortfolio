@@ -17,19 +17,13 @@ function ResumeItem({year, title, subTitle, text}) {
 }
 
 const ResumeItemStyled=styled.div`
-
-display: flex;
-
-p{
-    color:white;
-}
-
+  display: flex;
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 80%;
-            color:white;
         }
     }
+
     &:not(:last-child){
         padding-bottom: 3rem;
     }
@@ -46,14 +40,13 @@ p{
             width: 15px;
             border-radius: 50%;
             border: 2px solid var(--border-color);
-            background-color: var(--background-dark-color);
+            background-color: #00bfff;
         }
         p{
             display: inline-block;
-            color:white;
+            color:var(--white-color);
         }
-    }
-    .right-content{
+        .right-content{
         padding-left: 5rem;
         position: relative;
         &::before{
@@ -66,16 +59,15 @@ p{
             background-color: var(--border-color);
         }
         h5{
-            color: var(--primary-color);
+            color:#00bfff;
             font-size: 2rem;
             padding-bottom: .4rem;
-            color:blue;
         }
         h6{
             padding-bottom: .6rem;
             font-size: 1.5rem;
-            color:white;
         }
+    }
     }
 `;
 export default ResumeItem

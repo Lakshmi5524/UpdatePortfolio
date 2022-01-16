@@ -113,7 +113,7 @@ const ContactPageStyled = styled.div`
                     display: inline-block;
                     /* background-color:white; */
                     padding:0 .5rem;
-                    color: white;
+                    color:var(--white-color);
                 }
                 input{
                     border: 1px solid var(--border-color);
@@ -122,7 +122,7 @@ const ContactPageStyled = styled.div`
                     height: 50px;
                     padding:0 15px;
                     width: 100%;
-                    color: inherit;
+                    color:var(--white-color);
                 }
                 textarea{
                     background-color: transparent;
@@ -131,7 +131,7 @@ const ContactPageStyled = styled.div`
                     color: inherit;
                     width: 100%;
                     padding: .8rem 1rem;
-                    color: white;
+                    color:var(--white-color);
                 }
             }
 

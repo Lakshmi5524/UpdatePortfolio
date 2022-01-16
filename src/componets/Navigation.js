@@ -48,7 +48,7 @@ flex-direction:column;
 align-items:center;
 height: 100%;
 width: 100%;
-border-right:8px solid var(--border-right-color);
+border-right:8px solid var(--border-color);
 margin-bottom:20px;
 
 .avatar{
@@ -62,7 +62,7 @@ width: 80%;
 height:75%;
 border-radius:50%;
 object-fit:cover;
-border:8px solid var(--background-dark-color2)
+border:8px solid var(--primary-color-light))
 
 }
 }
@@ -71,7 +71,7 @@ border:8px solid var(--background-dark-color2)
         width: 100%;
         text-align: center;
         .active-class{
-            background-color: var(--primary-color-light);
+            background-color: var(--primary-color);
             color: white;
         }
 
@@ -87,11 +87,11 @@ border:8px solid var(--background-dark-color2)
                 font-weight: 500;
                 letter-spacing: 1px;
                 text-decoration:none;
-                color: white;
+                color:var(--white-color);
 
                 &:hover{
                     cursor: pointer;
-                    color: var(--white-color);
+                    color:var(--white-color)
                 }
                 &::before{
                     content: "";

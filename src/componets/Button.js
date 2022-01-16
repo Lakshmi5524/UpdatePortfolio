@@ -17,34 +17,32 @@ function Button({button,filter }) {
     )
 }
 const ButtonStyled=styled.button`
-outline:none;
-border:none;
-background-color:#48d1cc;
-margin:5px;
-padding:.8rem 2rem ;
-object-fit:cover;
-font-size:inherit;
-color:black;
-font-weight:900;
-cursor:pointer;
-transition:all .4s ease-in-out;
-&active,&:focus{
-    background-color:#dda0dd;
-
-}
-&:hover{
-background-color:#99e6b3;
-color:white;
-}
-
+outline: none;
+    border: none;
+    background-color: var(--background-light-color-2);
+    padding: .4rem 2rem;
+    font-size: inherit;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    margin-bottom: .6rem;
+    &:active ,&:focus{
+        background-color: var(--primary-color);
+    }
+    &:hover{
+        background-color: var(--primary-color);
+    }
+    &:not(:last-child){
+        margin-right: .6rem;
+    }
 `;
-
-const ButtonsStyled=styled.div`
- margin-bottom:2rem;
- display:flex;
- justify-content:center;
- width:70%;
- margin:2.4rem auto;
+const ButtonsStyled = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 2.4rem auto;
 
 `;
 

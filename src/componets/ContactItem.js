@@ -21,6 +21,7 @@ const ContactItemStyled = styled.div`
     color:white;
     display: flex;
     align-items: center;
+   
     &:not(:last-child){
         margin-bottom: 2.5rem;
     }
@@ -33,6 +34,8 @@ const ContactItemStyled = styled.div`
         align-items: center;
         justify-content: center;
         margin-right: 1.5rem;
+        color: var(--white-color);
+
         svg{
             font-size: 2.3rem;
         }
@@ -46,7 +49,7 @@ const ContactItemStyled = styled.div`
         }
         p{
             padding: .1rem 0;
-            
+            color: var(--white-color);
         }
     }
 `

@@ -17,7 +17,7 @@ function ProgressBar({title,width,text}) {
 }
 const ProgressBarStyled= styled.div `
 h6{
-    color:white;
+    color:var(--white-color);
     font-size:1.2rem;
     padding-bottom:.6rem;
     margin-left:15px

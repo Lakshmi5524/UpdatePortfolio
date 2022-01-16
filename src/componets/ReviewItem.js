@@ -10,25 +10,26 @@ const ReviewItem = ({ text }) => {
 
 const ReviewItemStyled = styled.div`
 padding: 2rem 1rem;
-border-left:8px solid #e8ccd7;
- position: relative;
-width: 100%;
+border-left: 6px solid var(--border-color);
+    background-color: var(--background-dark-grey);
+    position: relative;
+    width: 100%;
 &:not(:first-child){
 margin-left:2rem;
 }
-background-color:var(--background-light-color3);
+
 &::after{
-        content: "";
+    content: "";
         position: absolute;
         left: 2rem;
-        border-width: .8rem;
+        border-width: .7rem;
         top: 100%;
         border-style: solid;
-        border-color: var(--background-light-color3) transparent transparent var(--background-light-color3);
+        border-color: var(--background-dark-grey) transparent transparent var(--background-dark-grey);
     }
 p{
 padding: 1rem 0;
-color: white;
+color:var(--white-color);
 }
 
 `

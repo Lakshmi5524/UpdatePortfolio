@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const PrimeButton = ({ title }) => {
 	return (
 		<PrymaryButtonStyled>
-			<a href="https://www.w3schools.com" target="_blank">{title}</a>
+			<a href="https://drive.google.com/file/d/18qU4r4KuoiGyepii5TpmRsgdYoTz_nuu/view?usp=sharing" target="_blank">{title}</a>
 
 		</PrymaryButtonStyled>
 	)
