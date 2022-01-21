@@ -15,7 +15,11 @@ function Resume() {
             <Title title={'Resume'}span={'Resume'}/>
                 <InnerLayout>
                 <div className="small-title">
-                    <SmallTitle icon={briefcase} title={'Working Experience'} />
+
+                    <div className='working'>
+                    <SmallTitle  icon={briefcase} title={'Working Experience'}/>
+                    </div>
+                   
                 </div>
                 <div className="resume-content">
                   <ResumeItem  
@@ -67,17 +71,24 @@ function Resume() {
     )
 }
 const ResumeStyled=styled.section`
+
+color:var(--white-color);
 .small-title{
         padding-bottom: 3rem;
+        color:"black"
+  
+}
+
         
     }
     .u-small-title-margin{
         margin-top: 4rem;
+        color:var(--white-color);
     }
     .resume-content{
         border-left: 2px solid var(--border-color);
+        
     }
-
 
 
 `;

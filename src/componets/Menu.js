@@ -1,34 +1,50 @@
 import styled from 'styled-components'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PinterestIcon from '@material-ui/icons/Pinterest';
-
+import Button from '@material-ui/core/Button';
+import {Link} from 'react-router-dom'
 function Menu({menuItem}) {
  
+   const setlink=(items)=>{
+       console.log(items)
+      window.open(items)
+      
+   }
+
     return (
         <MenuItemStyled>
            {
                menuItem.map((item)=>{
+                   console.log(item.link1)
                    return <div className="grid-item" key={item.id}>
                            <div className="portfolio-content">
                                <div className="portfolio-image">
                                    <img src={item.image} alt=""/>
                                    <ul>
                                             <li>
-                                                <a herf={item.link1} >
+                                                {/* <a herf={item.link1} target="_blank">
                                                     <GitHubIcon/>
-                                                </a>
+                                                </a> */}
+                                                <Button onClick={()=>setlink(item.link1)}>
+                                                  <GitHubIcon/>
+                                                </Button>
+                                               
                                             </li>
 
                                             <li>
-                                                <a herf={item.link2}>
+                                                {/* <a herf={item.link2}>
                                                     <GitHubIcon/>
-                                                </a>
+                                                </a> */}
+
+                                                <Button onClick={()=>setlink(item.link2)}>
+                                                  <PinterestIcon/>
+                                                </Button>
                                             </li>
 
                                             <li>
-                                                <a herf={item.link3}>
-                                                    <PinterestIcon/>
-                                                </a>
+                                              <Button onClick={()=>setlink(item.link3)}>
+                                                  <GitHubIcon/>
+                                                </Button>
                                             </li>
                                       </ul>
                                </div>

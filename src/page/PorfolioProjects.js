@@ -13,7 +13,7 @@ function PorfolioProjects() {
   const [menuItem, setMenuItems] = useState(portfoliodata);
   const [button, setButton] = useState(allButtons);
 
-
+// console.log(portfoliodata);
 
 
   const filter = (button)=>{
@@ -25,6 +25,8 @@ function PorfolioProjects() {
 	  const  filterData= portfoliodata.filter(item=>item.category===button);
 	  setMenuItems(filterData);
   }
+
+  
 
   return (
     <MainLayout>

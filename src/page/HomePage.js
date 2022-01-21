@@ -1,5 +1,6 @@
 import React from 'react'
 // import Particles from "react-tsparticles";
+import PrimeButton from '../componets/PrimeButton'
 import styled from 'styled-components'
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -39,7 +40,10 @@ function HomePage() {
 
 				</div>
 
+				<PrimeButton title={"Download Resume"} />
+
 			</div>
+			
 			
 		</HomePageStyled>
 	)

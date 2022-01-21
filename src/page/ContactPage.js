@@ -1,16 +1,39 @@
-import React from 'react'
 import { MainLayout, InnerLayout } from '../Styles/Layout'
 import styled from 'styled-components'
 import Title from '../componets/Title'
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import PrimeButton from '../componets/PrimeButton'
 import ContactItem from '../componets/ContactItem'
+import emailjs from 'emailjs-com'
+import React,{useState,useRef} from 'react'
+
 function ContactPage() {
+    const formRef = useRef();
+    const [done, setDone] = useState(false)
 	const phone = <PhoneIcon />
 	const mail = <MailOutlineIcon />
 	const location = <LocationOnIcon />
+
+    const handileSumit = (e) => {
+		e.preventDefault();
+
+		emailjs.sendForm(
+			'service_63cus2w',
+			'template_7x9g8e8',
+			formRef.current,
+			'user_HodvhoRK0zXwYTw70wacx')
+			.then((result) => {
+				console.log(result.text);
+				setDone(true)
+			}, (error) => {
+				console.log(error.text);
+
+			}
+			);
+
+	}
+
 	return (
 		<MainLayout>
 			<ContactPageStyled>
@@ -20,25 +43,26 @@ function ContactPage() {
 						<div className='contact-title'>
 							<h4>Get In Tuch</h4>
 						</div>
-						<form className="form">
+						<form ref={formRef} className="form" onSubmit={handileSumit}>
 							<div className="form-field">
-								<label htmlFor="name"  >Enter your name*</label>
-								<input type="text" id="name" />
+								<label htmlFor="user_name">Enter your name*</label>
+								<input type="text" id="name" placeholder="Name" name="user_name" />
 							</div>
 							<div className="form-field">
-								<label htmlFor="email"  >Enter your email*</label>
-								<input type="email" id="email" />
+								<label htmlFor="user_email">Enter your email*</label>
+								<input type="email" id="email" placeholder="Email" name="user_email"/>
 							</div>
 							<div className="form-field">
-								<label htmlFor="subject"  >Enter your subject</label>
-								<input type="text" id="subject" />
+								<label htmlFor="user_subject">Enter your subject</label>
+								<input type="text" id="subject" placeholder="Subject" name="user_subject"/>
 							</div>
 							<div className="form-field">
-								<label htmlFor="text-area">Enter your Message*</label>
-								<textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+								<label htmlFor="message">Enter your Message*</label>
+								<textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Message" name="message"></textarea>
 							</div>
 							<div className="form-field f-button">
-								<PrimeButton title={'Send Email'} />
+                                <button>Submit</button>
+						         {done && "Thank you..."}
 							</div>
 						</form>
 					</div>
@@ -47,8 +71,8 @@ function ContactPage() {
 						<ContactItem
 							icon={phone}
 							title={'Phone'}
-							cont1={'1023456789'}
-							cont2={'456987466'}
+							cont1={'7397330045'}
+							cont2={'9444646776'}
 						/>
 
 						<ContactItem
@@ -136,6 +160,13 @@ const ContactPageStyled = styled.div`
             }
 
         }
+    }
+
+    button{
+        width:150px;
+        height:60px;
+      
+
     }
 
 `

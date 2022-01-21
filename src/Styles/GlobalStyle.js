@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     --border-color: #cbced8;
     --background-light-color: #F1F1F1;
     --background-light-color-2: rgba(3,127,255,.3);
-    --white-color:   #151515;
+    --white-color:  #151515;
     --font-light-color: #313131;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;

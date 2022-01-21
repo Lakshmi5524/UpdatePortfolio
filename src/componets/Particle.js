@@ -26,7 +26,7 @@ function Particle() {
 						value: "black",
 					},
 				},
-				fpsLimit: 60,
+				fpsLimit: 40,
 				interactivity: {
 					events: {
 						onClick: {
@@ -42,7 +42,7 @@ function Particle() {
 					modes: {
 						bubble: {
 							distance: 400,
-							duration: 2,
+							duration: 10,
 							opacity: 0.8,
 							size: 40,
 						},
@@ -51,7 +51,7 @@ function Particle() {
 						},
 						repulse: {
 							distance: 200,
-							duration: 0.3,
+							duration: 0.1,
 						},
 					},
 				},
@@ -74,7 +74,7 @@ function Particle() {
 						enable: true,
 						outMode: "bounce",
 						random: false,
-						speed: 6,
+						speed: 2,
 						straight: false,
 					},
 					number: {
@@ -85,7 +85,7 @@ function Particle() {
 						value: 80,
 					},
 					opacity: {
-						value: 0.5,
+						value: 0.1,
 					},
 					shape: {
 						type: "circle",

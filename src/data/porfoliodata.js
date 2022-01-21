@@ -23,6 +23,7 @@ const portfoliodata =[
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
+        link3: 'https://www.google.com',
         title: 'How To Animate In Maya',
         text: 'Number one Animation Application'
     },
@@ -32,15 +33,17 @@ const portfoliodata =[
         image: img3,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
+        link3: 'https://www.google.com',
         title: 'How To Animate In Maya',
         text: 'Number one Animation Application'
     },
     {
         id: 4,
-        category: 'Animation',
+        category: 'NodeJs',
         image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        link1: 'https://github.com/Lakshmi5524/ZoomClone',
+        link2: 'https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843',
+        link3: 'https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843',
         title: 'How To Use Blender',
         text: 'Free Animation Software'
     },
@@ -50,6 +53,7 @@ const portfoliodata =[
         image: img2,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
+        link3: 'https://www.google.com',
         title: 'How To Use Blender',
         text: 'Free Animation Software'
     },
@@ -57,19 +61,31 @@ const portfoliodata =[
         id: 6,
         category: 'ReactJS',
         image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+        link1: 'https://github.com/Lakshmi5524/Youtub-cloan',
+        link2: 'https://cloan-bbbbd.web.app/',
+        title: 'YouTube Clone ',
+        text: 'You can Search vidoes'
     },
     {
         id: 7,
-        category: 'CSS',
+        category: 'ReactJS',
         image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
+        link1: 'https://github.com/Lakshmi5524/NetflixUI',
+        link2: 'https://eloquent-agnesi-259554.netlify.app/',
+        link3: 'https://github.com/Lakshmi5524/NetflixUI',
+        title: 'DashBoard',
+        text: 'Created using React'
+    },
+
+    {
+        id: 8,
+        category: 'ReactJS',
+        image: css2,
+        link1: 'https://github.com/Lakshmi5524/Meals-app-frontend',
+        link2: 'https://epic-knuth-ecf81b.netlify.app/',
+        link3: 'https://epic-knuth-ecf81b.netlify.app/',
+        title: 'Meals App',
+        text: 'Created using React Search food Items'
     }
 ]
 export default portfoliodata;
