@@ -31,11 +31,11 @@ const portfoliodata =[
         id: 3,
         category: 'Javascript',
         image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        link1: 'https://github.com/Lakshmi5524/mobile-app-javascript',
+        link2: 'https://mobile-showroom.netlify.app/',
         link3: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        title: 'Mobile showroom app',
+        text: 'Using javascript with add to card functions'
     },
     {
         id: 4,
