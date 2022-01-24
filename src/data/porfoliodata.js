@@ -7,18 +7,9 @@ import img3 from '../img/porImage/map.png';
 
 
 const portfoliodata =[
+    
     {
         id: 1,
-        category: 'CSS',
-        image: css1,
-        link1: 'https://github.com/Lakshmi5524/Mern-map-backend',
-        link2: 'https://github.com/Lakshmi5524/Mern-map-frontend',
-        link3: 'https://wizardly-northcutt-8bf366.netlify.app/',
-        title: 'MERN MAP',
-        text: 'Created AUTH,and MAP'
-    },
-    {
-        id: 2,
         category: 'MERN Project',
         image: img3,
         link1: 'https://www.google.com',
@@ -27,8 +18,21 @@ const portfoliodata =[
         title: 'How To Animate In Maya',
         text: 'Number one Animation Application'
     },
+
     {
-        id: 3,
+        id: 2,
+        category: 'MERN Project',
+        image: img3,
+        link1: 'https://github.com/Lakshmi5524/mern-auth-clinet',
+        link2: 'https://mern-auth-project.herokuapp.com/signup',
+        link3: 'https://github.com/Lakshmi5524/mern-auth',
+        title: 'How To Animate In Maya',
+        text: 'Number one Animation Application'
+    },
+
+
+    {
+        id: 2,
         category: 'Javascript',
         image: img3,
         link1: 'https://github.com/Lakshmi5524/mobile-app-javascript',
@@ -38,7 +42,7 @@ const portfoliodata =[
         text: 'Using javascript with add to card functions'
     },
     {
-        id: 4,
+        id: 3,
         category: 'NodeJs',
         image: img2,
         link1: 'https://github.com/Lakshmi5524/ZoomClone',
@@ -47,18 +51,9 @@ const portfoliodata =[
         title: 'How To Use Blender',
         text: 'Free Animation Software'
     },
+    
     {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        link3: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 6,
+        id: 4,
         category: 'ReactJS',
         image: react1,
         link1: 'https://github.com/Lakshmi5524/Youtub-cloan',
@@ -67,7 +62,7 @@ const portfoliodata =[
         text: 'You can Search vidoes'
     },
     {
-        id: 7,
+        id: 5,
         category: 'ReactJS',
         image: css2,
         link1: 'https://github.com/Lakshmi5524/NetflixUI',
@@ -78,7 +73,7 @@ const portfoliodata =[
     },
 
     {
-        id: 8,
+        id: 6,
         category: 'ReactJS',
         image: css2,
         link1: 'https://github.com/Lakshmi5524/Meals-app-frontend',
