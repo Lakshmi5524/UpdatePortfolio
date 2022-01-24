@@ -1,38 +1,17 @@
 
-import css1 from '../img/porImage/css.jpeg';
-import css2 from '../img/porImage/casepizza.jpeg';
-import react1 from '../img/porImage/caseTodo.png';
-import img2 from '../img/porImage/zoom.jpeg';
-import img3 from '../img/porImage/map.png';
+import css1 from '../img/porImage/project.jpg';
+import css2 from '../img/porImage/project.jpg';
+import react1 from '../img/porImage/project.jpg';
+import img2 from '../img/porImage/project.jpg';
+import img3 from '../img/porImage/project.jpg';
 
 
 const portfoliodata =[
     
+    
+
     {
         id: 1,
-        category: 'MERN Project',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        link3: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-
-    {
-        id: 2,
-        category: 'MERN Project',
-        image: img3,
-        link1: 'https://github.com/Lakshmi5524/mern-auth-clinet',
-        link2: 'https://mern-auth-project.herokuapp.com/signup',
-        link3: 'https://github.com/Lakshmi5524/mern-auth',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-
-
-    {
-        id: 2,
         category: 'Javascript',
         image: img3,
         link1: 'https://github.com/Lakshmi5524/mobile-app-javascript',
@@ -42,18 +21,18 @@ const portfoliodata =[
         text: 'Using javascript with add to card functions'
     },
     {
-        id: 3,
+        id: 2,
         category: 'NodeJs',
         image: img2,
         link1: 'https://github.com/Lakshmi5524/ZoomClone',
         link2: 'https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843',
         link3: 'https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
+        title: 'ZOOM cloan',
+        text: 'Using nodejs'
     },
     
     {
-        id: 4,
+        id: 3,
         category: 'ReactJS',
         image: react1,
         link1: 'https://github.com/Lakshmi5524/Youtub-cloan',
@@ -73,7 +52,7 @@ const portfoliodata =[
     },
 
     {
-        id: 6,
+        id: 4,
         category: 'ReactJS',
         image: css2,
         link1: 'https://github.com/Lakshmi5524/Meals-app-frontend',
@@ -81,6 +60,29 @@ const portfoliodata =[
         link3: 'https://epic-knuth-ecf81b.netlify.app/',
         title: 'Meals App',
         text: 'Created using React Search food Items'
-    }
+    },
+
+    {
+        id: 1,
+        category: 'MERN Project',
+        image: img3,
+        link1: 'https://github.com/Lakshmi5524/Mern-map-frontend',
+        link2: 'https://wizardly-northcutt-8bf366.netlify.app/',
+        link3: 'https://github.com/Lakshmi5524/Mern-map-backend',
+        title: 'Map choose your fav country',
+        text: 'Using MERN'
+    },
+
+    {
+        id: 5,
+        category: 'MERN Project',
+        image: img3,
+        link1: 'https://github.com/Lakshmi5524/mern-auth-clinet',
+        link2: 'https://mern-auth-project.herokuapp.com/signup',
+        link3: 'https://github.com/Lakshmi5524/mern-auth',
+        title: 'Authontication signup and longin',
+        text:  'usin MERN'
+    },
+
 ]
 export default portfoliodata;
