@@ -1,13 +1,13 @@
 
 import css1 from '../img/porImage/project.jpg';
-import css2 from '../img/porImage/project.jpg';
-import react1 from '../img/porImage/project.jpg';
-import img2 from '../img/porImage/project.jpg';
-import img3 from '../img/porImage/project.jpg';
+import css2 from '../img/porImage/meals.jpg';
+import react1 from '../img/porImage/movies.jpg';
+import img2 from '../img/porImage/zoom.jpeg';
+import img3 from '../img/porImage/mapimg.jpg';
+import img4 from '../img/porImage/auth.jpg';
 
 
 const portfoliodata =[
-    
     
 
     {
@@ -36,12 +36,12 @@ const portfoliodata =[
         category: 'ReactJS',
         image: react1,
         link1: 'https://github.com/Lakshmi5524/Youtub-cloan',
-        link2: 'https://cloan-bbbbd.web.app/',
-        title: 'YouTube Clone ',
-        text: 'You can Search vidoes'
+        link2: 'https://lakshmi-movie-series.netlify.app/',
+        title: 'Movie Series',
+        text: 'You can Search Movies'
     },
     {
-        id: 5,
+        id: 4,
         category: 'ReactJS',
         image: css2,
         link1: 'https://github.com/Lakshmi5524/NetflixUI',
@@ -52,7 +52,7 @@ const portfoliodata =[
     },
 
     {
-        id: 4,
+        id: 5,
         category: 'ReactJS',
         image: css2,
         link1: 'https://github.com/Lakshmi5524/Meals-app-frontend',
@@ -63,7 +63,7 @@ const portfoliodata =[
     },
 
     {
-        id: 1,
+        id: 6,
         category: 'MERN Project',
         image: img3,
         link1: 'https://github.com/Lakshmi5524/Mern-map-frontend',
@@ -74,9 +74,9 @@ const portfoliodata =[
     },
 
     {
-        id: 5,
+        id: 7,
         category: 'MERN Project',
-        image: img3,
+        image: img4,
         link1: 'https://github.com/Lakshmi5524/mern-auth-clinet',
         link2: 'https://mern-auth-project.herokuapp.com/signup',
         link3: 'https://github.com/Lakshmi5524/mern-auth',

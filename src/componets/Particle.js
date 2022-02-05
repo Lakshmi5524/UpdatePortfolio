@@ -50,17 +50,17 @@ function Particle() {
 							quantity: 4,
 						},
 						repulse: {
-							distance: 200,
+							distance: 100,
 							duration: 0.1,
 						},
 					},
 				},
 				particles: {
 					color: {
-						value: "#ffffff",
+						value: "rgb(214,214,214)",
 					},
 					links: {
-						color: "#ffffff",
+						color: "rgb(214,214,214)",
 						distance: 150,
 						enable: true,
 						opacity: 0.5,
@@ -74,7 +74,7 @@ function Particle() {
 						enable: true,
 						outMode: "bounce",
 						random: false,
-						speed: 2,
+						speed: 1,
 						straight: false,
 					},
 					number: {

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import PinterestIcon from '@material-ui/icons/Pinterest';
+import WebIcon from '@material-ui/icons/Web';
 import Button from '@material-ui/core/Button';
 import {Link} from 'react-router-dom'
 function Menu({menuItem}) {
@@ -37,7 +37,7 @@ function Menu({menuItem}) {
                                                 </a> */}
 
                                                 <Button onClick={()=>setlink(item.link2)}>
-                                                  <PinterestIcon/>
+                                                  <WebIcon/>
                                                 </Button>
                                             </li>
 
