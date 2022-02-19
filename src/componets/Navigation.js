@@ -1,46 +1,56 @@
-import React from 'react'
-import styled from 'styled-components'
-import { NavLink } from 'react-router-dom'
-import avatar from '../img/mypic1.jpg'
+import React from "react"
+import styled from "styled-components"
+import { NavLink } from "react-router-dom"
+import avatar from "../img/mypic1.jpg"
 
 const Navigation = () => {
-    return (
-        <NavigationStyled>
-            <div className='avatar'>
-                <img src={avatar} alt="" />
-                <h3>Lakshmi</h3>
-            </div>
-            <ul className='nav-items'>
-                <li className='nav-item'>
-                    <NavLink to="/" activeClassName='active-class' exact >Home</NavLink>
-                </li>
+  return (
+    <NavigationStyled>
+      <div className="avatar">
+        <img src={avatar} alt="" />
+        <h3>Lakshmi</h3>
+      </div>
+      <ul className="nav-items">
+        <li className="nav-item">
+          <NavLink to="/" activeClassName="active-class" exact>
+            Home
+          </NavLink>
+        </li>
 
-                <li className='nav-item'>
-                    <NavLink to="/about" activeClassName='active-class' exact>About</NavLink>
-                </li>
+        <li className="nav-item">
+          <NavLink to="/about" activeClassName="active-class" exact>
+            About
+          </NavLink>
+        </li>
 
-                <li className='nav-item'>
-                    <NavLink to="/resume" activeClassName='active-class' exact>Resume</NavLink>
-                </li>
+        <li className="nav-item">
+          <NavLink to="/resume" activeClassName="active-class" exact>
+            Skills
+          </NavLink>
+        </li>
 
-                <li className='nav-item'>
-                    <NavLink to="/portfolios" activeClassName='active-class' exact>Projects</NavLink>
-                </li>
+        <li className="nav-item">
+          <NavLink to="/portfolios" activeClassName="active-class" exact>
+            Projects
+          </NavLink>
+        </li>
 
-                {/* <li className='nav-item'>
+        {/* <li className='nav-item'>
                     <NavLink to="/blogs" activeClassName='active-class' exact>Blogs</NavLink>
                 </li> */}
 
-                <li className='nav-item'>
-                    <NavLink to="/contact" activeClassName='active-class' exact>Contact</NavLink>
-                </li>
-            </ul>
+        <li className="nav-item">
+          <NavLink to="/contact" activeClassName="active-class" exact>
+            Contact
+          </NavLink>
+        </li>
+      </ul>
 
-            <footer className='footer'>
-                <p>@2021 my Portfolio Website</p>
-            </footer>
-        </ NavigationStyled>
-    )
+      <footer className="footer">
+        <p>@2021 my Portfolio Website</p>
+      </footer>
+    </NavigationStyled>
+  )
 }
 const NavigationStyled = styled.nav`
 h3{
@@ -132,5 +142,5 @@ border:8px solid var(--primary-color-light))
         }
     }
 
-`;
+`
 export default Navigation
