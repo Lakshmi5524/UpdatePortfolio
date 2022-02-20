@@ -1,4 +1,4 @@
-import css1 from "../img/porImage/project.jpg"
+import css1 from "../img/porImage/cart.jpeg"
 import css2 from "../img/porImage/appimg.png"
 import css3 from "../img/porImage/meals.jpg"
 import css4 from "../img/porImage/list.png"
@@ -6,12 +6,13 @@ import react1 from "../img/porImage/movies.jpg"
 import img2 from "../img/porImage/zoom.jpeg"
 import img3 from "../img/porImage/mapimg.jpg"
 import img4 from "../img/porImage/auth.jpg"
+import img5 from "../img/porImage/project.jpg"
 
 const portfoliodata = [
   {
     id: 1,
     category: "Javascript",
-    image: img3,
+    image: css1,
     link1: "https://github.com/Lakshmi5524/mobile-app-javascript",
     link2: "https://mobile-showroom.netlify.app/",
     link3: "https://www.google.com",
@@ -77,9 +78,8 @@ const portfoliodata = [
     id: 7,
     category: "MERN Project",
     image: img3,
-    link1: "https://github.com/Lakshmi5524/Mern-map-frontend",
-    link2: "https://wizardly-northcutt-8bf366.netlify.app/",
-    link3: "https://github.com/Lakshmi5524/Mern-map-backend",
+    link1: "https://github.com/Lakshmi5524/NewMap-client",
+    link3: "https://github.com/Lakshmi5524/mern-newmap-server",
     title: "Map choose your fav country",
     text: "Using MERN",
   },
@@ -92,7 +92,17 @@ const portfoliodata = [
     link2: "https://mern-auth-project.herokuapp.com/signup",
     link3: "https://github.com/Lakshmi5524/mern-auth",
     title: "Authontication signup and longin",
-    text: "usin MERN",
+    text: "using MERN",
+  },
+
+  {
+    id: 9,
+    category: "MERN Project",
+    image: img5,
+    link1: "https://github.com/Lakshmi5524/Crud-mern/tree/main/backend",
+    link3: "https://github.com/Lakshmi5524/Crud-mern/tree/main/frontend",
+    title: "Authontication signup and longin",
+    text: "Authentication and CRUD using MERN ",
   },
 ]
 export default portfoliodata
