@@ -18,7 +18,7 @@ function HomePage() {
           Hai,I'am <span>Lakshmi</span>
         </h1>
         <h2>
-          <span>Front End Developer</span>
+          <span>MERN Stack Developer</span>
         </h2>
 
         <p>

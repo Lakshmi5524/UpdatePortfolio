@@ -5,7 +5,7 @@ import css4 from "../img/porImage/list.png"
 import react1 from "../img/porImage/movies.jpg"
 import img2 from "../img/porImage/zoom.jpeg"
 import img3 from "../img/porImage/mapimg.jpg"
-import img4 from "../img/porImage/auth.jpg"
+import img4 from "../img/porImage/crud.jpeg"
 import img5 from "../img/porImage/project.jpg"
 
 const portfoliodata = [
@@ -15,7 +15,7 @@ const portfoliodata = [
     image: css1,
     link1: "https://github.com/Lakshmi5524/mobile-app-javascript",
     link2: "https://mobile-showroom.netlify.app/",
-    link3: "https://www.google.com",
+    link3: "https://github.com/Lakshmi5524/mobile-app-javascript",
     title: "Mobile showroom app",
     text: "Using javascript with add to card functions",
   },
@@ -26,8 +26,7 @@ const portfoliodata = [
     link1: "https://github.com/Lakshmi5524/ZoomClone",
     link2:
       "https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843",
-    link3:
-      "https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843",
+    link3: "https://github.com/Lakshmi5524/ZoomClone",
     title: "ZOOM cloan",
     text: "Using nodejs",
   },
@@ -36,8 +35,9 @@ const portfoliodata = [
     id: 3,
     category: "ReactJS",
     image: react1,
-    link1: "https://github.com/Lakshmi5524/Youtub-cloan",
+    link1: "https://github.com/Lakshmi5524/Movie-series",
     link2: "https://lakshmi-movie-series.netlify.app/",
+    link3: "https://github.com/Lakshmi5524/Movie-series",
     title: "Movie Series",
     text: "You can Search Movies",
   },
@@ -56,9 +56,9 @@ const portfoliodata = [
     id: 5,
     category: "ReactJS",
     image: css3,
-    link1: "https://github.com/Lakshmi5524/Meals-app-frontend",
-    link2: "https://epic-knuth-ecf81b.netlify.app/",
-    link3: "https://epic-knuth-ecf81b.netlify.app/",
+    link1: "https://github.com/Lakshmi5524/Food-api",
+    link2: "https://searchfood-recipe-api.netlify.app/",
+    link3: "https://github.com/Lakshmi5524/Food-api",
     title: "Meals App",
     text: "Created using React Search food Items",
   },
@@ -68,7 +68,7 @@ const portfoliodata = [
     category: "ReactJS",
     image: css4,
     link1: "https://github.com/Lakshmi5524/simple-TodoApp-reactjs",
-    link2: "mystifying-knuth-b438d0.netlify.app/",
+    link2: "https://small-todo-list.netlify.app/",
     link3: "https://github.com/Lakshmi5524/simple-TodoApp-reactjs",
     title: "simple-TodoApp",
     text: "Created using React Enter the list Items",
@@ -78,9 +78,10 @@ const portfoliodata = [
     id: 7,
     category: "MERN Project",
     image: img3,
-    link1: "https://github.com/Lakshmi5524/NewMap-client",
-    link3: "https://github.com/Lakshmi5524/mern-newmap-server",
-    title: "Map choose your fav country",
+    link1: "https://github.com/Lakshmi5524/Mern-map-frontend",
+    link2: "https://pin-map-mern.netlify.app/",
+    link3: "https://github.com/Lakshmi5524/Mern-map-backend",
+    title: "Choose your fav country & carete pin",
     text: "Using MERN",
   },
 
@@ -88,21 +89,22 @@ const portfoliodata = [
     id: 8,
     category: "MERN Project",
     image: img4,
-    link1: "https://github.com/Lakshmi5524/mern-auth-clinet",
-    link2: "https://mern-auth-project.herokuapp.com/signup",
-    link3: "https://github.com/Lakshmi5524/mern-auth",
-    title: "Authontication signup and longin",
-    text: "using MERN",
+    link1: "https://github.com/Lakshmi5524/crud-mern-client",
+    link2: "https://crud-mern-app.netlify.app/",
+    link3: "https://github.com/Lakshmi5524/crud-mern-server",
+    title: "CRUD you can Create Read Update and Delete with auth",
+    text: "Using MERN CRUD proejct",
   },
 
   {
     id: 9,
     category: "MERN Project",
     image: img5,
-    link1: "https://github.com/Lakshmi5524/Crud-mern/tree/main/backend",
-    link3: "https://github.com/Lakshmi5524/Crud-mern/tree/main/frontend",
-    title: "Authontication signup and longin",
-    text: "Authentication and CRUD using MERN ",
+    link1: "https://github.com/Lakshmi5524/mern-auth-clinet",
+    link2: "https://mern-auth-project.herokuapp.com/login",
+    link3: "https://github.com/Lakshmi5524/mern-auth",
+    title: "Authentication Signup and Longin",
+    text: "Using MERN ",
   },
 ]
 export default portfoliodata
