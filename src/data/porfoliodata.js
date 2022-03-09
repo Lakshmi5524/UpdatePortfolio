@@ -17,7 +17,7 @@ const portfoliodata = [
     link2: "https://mobile-showroom.netlify.app/",
     link3: "https://github.com/Lakshmi5524/mobile-app-javascript",
     title: "Mobile showroom app",
-    text: "Using javascript with add to card functions",
+    text: "Using javascript with add to cart functions",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const portfoliodata = [
     link2:
       "https://aqueous-peak-05442.herokuapp.com/cdc3e8ac-9d18-4ee1-916a-fa9ac29ed843",
     link3: "https://github.com/Lakshmi5524/ZoomClone",
-    title: "ZOOM cloan",
+    title: "ZOOM clone",
     text: "Using nodejs",
   },
 
@@ -39,7 +39,7 @@ const portfoliodata = [
     link2: "https://lakshmi-movie-series.netlify.app/",
     link3: "https://github.com/Lakshmi5524/Movie-series",
     title: "Movie Series",
-    text: "You can Search Movies",
+    text: "Using Reactjs You can Search Movies",
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ const portfoliodata = [
     link2: "https://searchfood-recipe-api.netlify.app/",
     link3: "https://github.com/Lakshmi5524/Food-api",
     title: "Meals App",
-    text: "Created using React Search food Items",
+    text: "Using Reactjs, You can Search food Resipes Items",
   },
 
   {
@@ -71,7 +71,7 @@ const portfoliodata = [
     link2: "https://small-todo-list.netlify.app/",
     link3: "https://github.com/Lakshmi5524/simple-TodoApp-reactjs",
     title: "simple-TodoApp",
-    text: "Created using React Enter the list Items",
+    text: "Using Reactjs, Enter the list Items",
   },
 
   {
